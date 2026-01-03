@@ -17,13 +17,17 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: recursive
 
       - uses: actions/cache@v4
         with:
           path: |
             ~/.cache/pip
             ~/.platformio/.cache
-            ./.pio
+          key: ${{ runner.os }}-pio-${{ hashFiles('platformio.ini') }}
+          restore-keys: |
+            ${{ runner.os }}-pio-
 
       - uses: actions/setup-python@v5
         with:
