@@ -4,6 +4,12 @@ Stream your computer screen to [Lilka](https://lilka.dev) device over WiFi using
 
 Based on the ESP32 Desktop Monitor [project](https://github.com/tuckershannon/ESP32-Desktop-Monitor).
 
+## Demo
+
+https://github.com/user-attachments/assets/video.mp4
+
+![Lilka Desktop Monitor](docs/image.png)
+
 ## How It Works
 
 ```
