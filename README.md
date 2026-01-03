@@ -6,7 +6,7 @@ Based on the ESP32 Desktop Monitor [project](https://github.com/tuckershannon/ES
 
 ## Demo
 
-https://github.com/user-attachments/assets/video.mp4
+https://github.com/lilka-dev/mpeg_stream_player/blob/main/docs/video.mp4
 
 ![Lilka Desktop Monitor](docs/image.png)
 
